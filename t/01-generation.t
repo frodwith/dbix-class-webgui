@@ -31,7 +31,7 @@ use warnings;
 
 use DBI;
 use Test::MockObject;
-use Test::More 'no_plan';
+use Test::More tests => 2;
 
 my $dbh = DBI->connect('dbi:SQLite:dbname=:memory:');
 $dbh->do(q{
