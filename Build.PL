@@ -4,6 +4,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     license             => 'perl',
+    dist_abstract       => 'WebGUI integration for DBIx::Class',
     dist_author         => 'Paul Driver <paul@plainblack.com>',
     module_name         => 'DBIx::Class::Storage::WebGUI::Session',
     build_requires => {

@@ -1,3 +1,6 @@
 _build
 blib
 Build
+META.yml
+Makefile.PL
+*.tar.gz
